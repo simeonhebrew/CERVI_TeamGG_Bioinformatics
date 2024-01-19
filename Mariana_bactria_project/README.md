@@ -3,7 +3,7 @@
 This folder details the analysis of 8 samples from raw sequencing reads to taxonomic analysis.
 The paired-end raw sequencing reads are located [here](https://www.dropbox.com/home/Dossier%20de%20l'%C3%A9quipe%20Team%20GG/Sequencing_data/2023/230424_NovaSeq_run2_MS_IgA_Virome/2023_NovaSeq_Bacteria/Marianne_Bactria_data).
 
-## Quality control of sequencing roads
+## Quality control of sequencing reads
 
 The quality of the sequencing reads was visualized using `FASTQC (v0.12.1)`. Since adapter sequences were still present in the reads and there was an expected decline in quality twoards the end of the reads, they proceeded to sequence trimming.
 
