@@ -26,7 +26,7 @@ The progression of reads from quality control to taxonomic assignment with metap
 
 
 ## Taxonomic assignment using Kraken (Phanta Pipeline)
-The reads were also taxonomically classified using Phanta (workflow for rapidly quantifying taxa from short-read human gut metagenomes) using a group of human gut metagenome [databases](https://github.com/bhattlab/phanta/blob/main/databases.md).
+The reads were also taxonomically classified using `Phanta(v1.1.0)` (workflow for rapidly quantifying taxa from short-read human gut metagenomes) using a group of human gut metagenome [databases](https://github.com/bhattlab/phanta/blob/main/databases.md). Phanta implements Kraken2 as a taxonomic classifer based on k-mer alignment.
 
 Phanta output files can be accessed [here](https://github.com/simeonhebrew/U1135_Bioinformatics/tree/main/Mariana_bactria_project/phanta_output_mariana_bactria).
 
