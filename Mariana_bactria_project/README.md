@@ -1,6 +1,7 @@
 # Bactria project
 
 This folder details the analysis of 8 samples from raw sequencing reads to taxonomic analysis.
+The raw sequencing reads are located here.
 
 ## Quality control of sequencing roads
 
@@ -30,3 +31,4 @@ The reads were also taxonomically classified using Phanta (workflow for rapidly 
 Phanta output files can be accessed here.
 
 
+The progression of reads from quality control to taxonomic assignment with phanta is located here
