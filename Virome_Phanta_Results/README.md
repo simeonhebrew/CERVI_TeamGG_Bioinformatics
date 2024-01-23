@@ -12,8 +12,7 @@ The quality of the sequencing reads was visualized using `FASTQC (v0.12.1)`. Sin
 
 The sequences were trimmed using `FASTP(v0.23.4)` which allows for removal of universal as well as other commonly used adapter sequences. The polyG tail at the end of the reads was also trimmed off.
 
-The quality control reports showing read quality before and after trimming can be found here:
-
+The quality control reports showing read quality before and after trimming can be found [here](https://github.com/simeonhebrew/CERVI_TeamGG_Bioinformatics/tree/main/Virome_Phanta_Results/trimmed_reads_quality_reports).
 
 ## Taxonomic assignment using Phanta
 
@@ -39,5 +38,7 @@ The phanta output folders are organized for [Control](https://github.com/simeonh
 *total_reads.tsv* - tracking of assigned and unassigned reads
 
 The control, CVID and IgAD viral and host count files have been merged under the prefix 'PAD' and can be found here [here](https://github.com/simeonhebrew/CERVI_TeamGG_Bioinformatics/tree/main/Virome_Phanta_Results/PAD_count_outputs).
+
+The overall progression of reads from quality control to taxonomic assignment can be found [here](https://github.com/simeonhebrew/CERVI_TeamGG_Bioinformatics/blob/main/Virome_Phanta_Results/Virome_Reads_Phanta_Analysis.xlsx).
 
 
